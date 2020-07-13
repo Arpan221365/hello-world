@@ -1,6 +1,6 @@
 node('windows'){
 	try{
-		println "Hello World......"
+		println "Hello World............"
 	}catch(Exception e){
 		throw e;
 	}
