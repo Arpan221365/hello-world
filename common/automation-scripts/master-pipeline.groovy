@@ -1,7 +1,11 @@
 node('windows'){
 	try{
-		println "Hello World............"
+		def plObj={}
+		plObj.nodeOs = isUnix()? 'LINUX' : 'WIN'
+		println "The Node is - "+ plObj.nodeOs
 	}catch(Exception e){
-		throw e;
+		throw e
+	}finally{
+		deleteDir()
 	}
 }
