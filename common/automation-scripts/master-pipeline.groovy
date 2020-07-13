@@ -1,4 +1,4 @@
-node('windows'){
+node('master'){
 	try{
 		def plObj={}
 		plObj.nodeOs = isUnix() ? 'LINUX' : 'WIN'
