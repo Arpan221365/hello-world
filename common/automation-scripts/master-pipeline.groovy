@@ -5,6 +5,7 @@ node('master'){
 		println "The Node is - "+ plObj.nodeOs
 	}catch(Exception e){
 		throw e
+		
 	}finally{
 		deleteDir()
 	}
