@@ -1,7 +1,7 @@
 node('windows'){
 	try{
 		println "Hello World......"
-	}catch(Excetion e){
+	}catch(Exception e){
 		throw e;
 	}
 }
